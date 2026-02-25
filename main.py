@@ -11,10 +11,10 @@ with col1:
     age = st.number_input("Age", min_value=18, max_value=100, step=1)
 
 with col2:
-    income = st.number_input("Income", min_value=0, step=1000)
+    income = st.number_input("Income", min_value=0, step=1000, value = 40000)
 
 with col3:
-    loan_amount = st.number_input("Loan Amount", min_value=0, step=1000)
+    loan_amount = st.number_input("Loan Amount", min_value=0, step=1000, value = 100000)
 
 
 # ---------------- Row 2 ----------------
